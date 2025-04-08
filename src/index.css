@@ -1,0 +1,111 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 33% 99%;
+    --foreground: 210 33% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 33% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 33% 15%;
+
+    --primary: 200 100% 40%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 210 33% 96%;
+    --secondary-foreground: 210 33% 15%;
+
+    --muted: 210 20% 94%;
+    --muted-foreground: 210 20% 45%;
+
+    --accent: 190 90% 55%;
+    --accent-foreground: 210 33% 15%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 210 20% 90%;
+    --input: 210 20% 90%;
+    --ring: 200 100% 40%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 210 40% 20%;
+    --sidebar-foreground: 210 20% 98%;
+    --sidebar-primary: 200 100% 40%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 210 33% 25%;
+    --sidebar-accent-foreground: 210 20% 98%;
+    --sidebar-border: 210 33% 25%;
+    --sidebar-ring: 200 100% 40%;
+  }
+
+  .dark {
+    --background: 210 33% 15%;
+    --foreground: 210 20% 98%;
+
+    --card: 210 33% 18%;
+    --card-foreground: 210 20% 98%;
+
+    --popover: 210 33% 18%;
+    --popover-foreground: 210 20% 98%;
+
+    --primary: 200 100% 40%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 210 33% 25%;
+    --secondary-foreground: 210 20% 98%;
+
+    --muted: 210 33% 25%;
+    --muted-foreground: 210 20% 70%;
+
+    --accent: 190 90% 55%;
+    --accent-foreground: 210 33% 15%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 210 33% 25%;
+    --input: 210 33% 25%;
+    --ring: 200 100% 40%;
+
+    --sidebar-background: 210 40% 10%;
+    --sidebar-foreground: 210 20% 98%;
+    --sidebar-primary: 200 100% 40%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 210 33% 15%;
+    --sidebar-accent-foreground: 210 20% 98%;
+    --sidebar-border: 210 33% 15%;
+    --sidebar-ring: 200 100% 40%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.typing-container {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid;
+}
+
+.jenkins-gradient {
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 100%);
+}
+
+.jenkins-card {
+  @apply bg-card border border-border shadow-md hover:shadow-lg transition-shadow duration-300;
+}
