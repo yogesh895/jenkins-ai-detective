@@ -40,37 +40,37 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          
+
           <div>
             <h3 className="font-medium mb-3">Navigate</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link 
-                  to="/" 
+                <Link
+                  to="/"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
                   Dashboard
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/chat" 
+                <Link
+                  to="/chat"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
                   AI Chat
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/analytics" 
+                <Link
+                  to="/analytics"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
                   Analytics
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/about" 
+                <Link
+                  to="/about"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
                   About
@@ -78,13 +78,13 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="font-medium mb-3">Resources</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link 
-                  to="https://www.jenkins.io/doc/" 
+                <Link
+                  to="https://www.jenkins.io/doc/"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                   target="_blank"
                   rel="noreferrer"
@@ -93,8 +93,8 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="https://ci.jenkins.io/" 
+                <Link
+                  to="https://ci.jenkins.io/"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                   target="_blank"
                   rel="noreferrer"
@@ -103,8 +103,8 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="https://github.com/jenkins-infra/Enhancing-LLM-with-Jenkins-Knowledge/" 
+                <Link
+                  to="https://github.com/yogesh895/jenkins-ai-detective"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                   target="_blank"
                   rel="noreferrer"
@@ -113,8 +113,8 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="https://www.jenkins.io/community/" 
+                <Link
+                  to="https://www.jenkins.io/community/"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                   target="_blank"
                   rel="noreferrer"
@@ -124,23 +124,23 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="font-medium mb-3">Newsletter</h3>
             <p className="text-sm text-muted-foreground mb-3">
               Stay updated with the latest developments in Jenkins AI.
             </p>
             <div className="flex gap-2">
-              <input 
-                type="email" 
-                placeholder="Your email" 
+              <input
+                type="email"
+                placeholder="Your email"
                 className="px-3 py-2 bg-background border rounded text-sm w-full"
               />
               <Button size="sm">Subscribe</Button>
             </div>
           </div>
         </div>
-        
+
         <div className="mt-8 pt-6 border-t flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-center text-sm text-muted-foreground md:text-left">
             © {currentYear} Jenkins AI Detective. A Proof of Concept project.
