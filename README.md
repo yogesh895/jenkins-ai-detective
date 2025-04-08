@@ -1,11 +1,16 @@
+
 ## Jenkins AI Detective
 
 
 The Jenkins AI Detective is a proof-of-concept web application designed to help diagnose build failures in Jenkins CI/CD pipelines. It uses data from ci.jenkins.io to categorize failures and provide intelligent analysis.
 
+<img width="1437" alt="Screenshot 2025-04-08 at 3 27 29 PM" src="https://github.com/user-attachments/assets/442a63a8-e366-42c0-80ce-ec1de9ce8dfd" />
+
 ## Main Sections
 
 ### 1. Dashboard (Home Page)
+
+<img width="1437" alt="Screenshot 2025-04-08 at 3 16 39 PM" src="https://github.com/user-attachments/assets/06f3a58a-7597-42b8-8125-8c080b42f887" />
 
 The dashboard serves as the landing page and provides a high-level overview of the system:
 
@@ -28,6 +33,8 @@ The dashboard serves as the landing page and provides a high-level overview of t
 
 ### 2. Repositories Tab
 
+<img width="1437" alt="Screenshot 2025-04-08 at 3 24 31 PM" src="https://github.com/user-attachments/assets/6ded4c6d-bc91-4c43-9b90-03c76a6cf1d1" />
+
 The Repositories tab shows information about specific Jenkins repositories:
 
 -   **Repository Cards**: Each card represents a monitored Jenkins repository with:
@@ -47,6 +54,8 @@ The Trends tab visualizes patterns over time:
 
 ### 4. Analytics Page
 
+<img width="1437" alt="Screenshot 2025-04-08 at 3 17 22 PM" src="https://github.com/user-attachments/assets/de022139-df0a-463f-9a34-36eb093c5667" />
+
 This page offers more detailed data analysis:
 
 -   **Trends**: Visualizes failure patterns over time with a line chart
@@ -55,6 +64,8 @@ This page offers more detailed data analysis:
 -   **Comparisons**: Provides side-by-side analysis of failure patterns across repositories
 
 ### 5. Chat Page (AI Interaction)
+
+<img width="1437" alt="Screenshot 2025-04-08 at 3 17 14 PM" src="https://github.com/user-attachments/assets/a987de2f-abe6-4b17-8adb-23e93018d2c7" />
 
 This is where users can interact directly with the AI:
 
